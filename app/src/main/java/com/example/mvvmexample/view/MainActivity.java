@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void observeViewModel() {
+        //
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
